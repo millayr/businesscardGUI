@@ -1,0 +1,110 @@
+
+
+body {
+	background: #0e3560;
+	font-family: "Verdana"
+}
+
+#wrapper {
+	padding: 10px;
+}
+
+#title {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+	font-size: 25px;
+	color: white;
+	background: #0d2c51;
+	padding: 20px;
+	border: 1px solid;
+	border-color: black;
+}
+
+#map-div {
+	margin-top: 15px;
+	width: 650px;
+	float: left;
+	display: table-cell;
+}
+
+#map {
+	width: 100%;
+	height: 450px;
+}
+
+#warning {
+	color: #29bf9e;
+}
+
+#output {
+	margin-top: 30px;
+}
+
+div.row {
+	display: table-row;
+	width: auto;
+	border: 20px solid;
+}
+
+#form {
+	min-width: 300px;
+	float: left;
+	background: #0d2c51;
+	color: white;
+	margin-top: 15px;
+	margin-left: 20px;
+	padding: 10px;
+	display: table-cell;
+	border: 1px solid;
+	border-color: black;
+}
+
+#submit {
+	text-align: center;
+}
+
+#search {
+	font-size: 20px;
+}
+
+legend {
+	font-size: 18px;
+	color: #29bf9e;
+}
+
+label.field {
+	text-align: right;
+	width: 100px;
+	float: left;
+}
+
+#cards {
+	width: 425px;
+	background: #0d2c51;
+	float: left;
+	margin-top: 15px;
+	margin-left: 20px;
+	display: table-cell;
+	border: 1px solid;
+	overflow-y: auto;
+	max-height: 725px;
+}
+
+#counts {
+	margin: 20px;
+	color: #29bf9e;
+}
+
+.result {
+	background: #FBEFF5;
+	text-align: left;
+	margin: 20px;
+	padding-left: 50px;
+	padding-bottom: 10px;
+	min-height: 200px;
+}
+
+#form a {
+	color: #29bf9e;
+}

@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <title>Cloudant Technical Sales Team</title>
+    <script src="jquery.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <script type="application/javascript" src="config"></script>
+    <script type="application/javascript" src="bc.js"></script>
+    
+    <div id="wrapper">
+       <img src="logo.png" width="200px">
+       <div class="row">
+         <p><hr></p>
+         <p id="title">Technical Sales Team</p>
+         <div id="map-div">
+            <iframe id="map" frameborder="0" src="https://render.githubusercontent.com/view/geojson?url=https://raw.githubusercontent.com/michaelbreslin/cloudant-geojson-examples/master/cloudant-team.geojson"></iframe>
+            <p id="warning"><b>Note:</b> This map shows ALL technical sellers, regardless of search query.</p>
+         </div>
+         <div id="form">
+            <fieldset>
+              <legend>Search for Tech Sellers</legend>
+              <p><label class="field">Name: </label><input type="text" id="name"></p>
+              <p><label class="field">Language: </label><input type="text" id="language"></p>
+              <p><label class="field">Product: </label><input type="text" id="product"></p>
+              <p><label class="field">Country: </label><input type="text" id="country"></p>
+              <p><label class="field">State: </label><input type="text" id="state"></p>
+              <p><label class="field">
+                  <a href="http://maps.cga.harvard.edu/gpf/" target="_blank">Lat: </a>
+                 </label><input type="text" id="lat">
+              </p>
+              <p><label class="field">
+                  <a href="http://maps.cga.harvard.edu/gpf/" target="_blank">Long: </a>
+                 </label><input type="text" id="long">
+              </p><br/>
+              <p id="submit"><input type="button" id="search" value="SEARCH!"></p>
+            </fieldset>
+         </div>
+
+         <div id="cards">
+         </div>
+       </div>
+
+    </div>
+  </body>
+</html>
